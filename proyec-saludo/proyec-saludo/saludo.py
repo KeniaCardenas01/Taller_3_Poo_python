@@ -2,9 +2,7 @@
 from cliente import cliente
 
 class Saludo:
-    def __init__(self):
-        pass
-        self.obj_cliente=cliente()
+    
         
     def hacer_saludo_formal(self):    
         mensaje= "Buenos  saludos formales: "

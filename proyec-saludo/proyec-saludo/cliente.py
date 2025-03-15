@@ -35,4 +35,4 @@ class cliente:
             print(f"nombre del cliente:{self.nombre_cliente}-apellido del cliente:{self.apellido_cliente}")    
     
     def hacer_saludo(self,datosaludo):
-        print (f"{datosaludo} : {self.get_nombre}  {self.get_apellido}")
+        print (f"{datosaludo} : {self.nombre_cliente}  {self.apellido_cliente}")
