@@ -9,7 +9,7 @@ class Sala:
         if self.verificar_disponibilidad(cantidad):
             self.asientos_disponibles -= cantidad
             print("\n ¡Reserva confirmada!")
-            print(f"🪑 Asientos disponibles restantes: {self.asientos_disponibles}")
+            print(f"Asientos disponibles restantes: {self.asientos_disponibles}")
             return True
         else:
             print(f"\n No hay suficientes asientos disponibles. Solo quedan {self.asientos_disponibles}.")
